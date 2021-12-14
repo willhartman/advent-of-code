@@ -157,3 +157,4 @@ let sonarDepth = SonarDepthBuilder.fromNumberArray([
 ]);
 
 console.log(`How many measurements are larger than the previous measurement?`, sonarDepth.increases)
+console.log(`Consider sums of a three-measurement sliding window. How many sums are larger than the previous sum?`, sonarDepth.threeMeasurementWindowIncreases)
