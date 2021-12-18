@@ -5,12 +5,26 @@
     "version": "0.2.0",
     "configurations": [
         {
-            "name": "Day 1",
+            "name": "Sonar Depth",
             "request": "launch",
-            "cwd": "${workspaceFolder}/day-1",
+            "cwd": "${workspaceFolder}/src",
             "runtimeArgs": [
                 "run-script",
-                "start"
+                "sonar-depth"
+            ],
+            "runtimeExecutable": "npm",
+            "skipFiles": [
+                "<node_internals>/**"
+            ],
+            "type": "pwa-node"
+        },
+        {
+            "name": "Run and Debug Tests",
+            "request": "launch",
+            "cwd": "${workspaceFolder}/src",
+            "runtimeArgs": [
+                "run-script",
+                "test"
             ],
             "runtimeExecutable": "npm",
             "skipFiles": [

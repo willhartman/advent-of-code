@@ -1,4 +1,4 @@
-import { SonarDepthBuilder } from "./sonar-depth/sonar-depth-builder";
+import { SonarDepthBuilder } from "./sonar-depth-builder";
 
 let sonarDepth = SonarDepthBuilder.fromNumberArray([
   100, 125, 124, 127, 141, 145, 160, 161, 178, 185, 193, 196, 195, 200, 212,
